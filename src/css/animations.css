@@ -1,0 +1,40 @@
+@keyframes pulseMic {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 210, 255, 0.5); }
+  70% { transform: scale(1.08); box-shadow: 0 0 0 20px rgba(0, 210, 255, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 210, 255, 0); }
+}
+
+@keyframes waveBar {
+  0%, 100% { height: 8px; }
+  50% { height: 28px; }
+}
+
+@keyframes glowBorder {
+  0%, 100% { border-color: var(--border-color); }
+  50% { border-color: var(--accent-cyan); box-shadow: var(--glow-cyan); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-mic-listening {
+  animation: pulseMic 1.8s infinite cubic-bezier(0.4, 0, 0.6, 1);
+  background: var(--gradient-voice) !important;
+}
+
+.wave-bar {
+  width: 4px;
+  background: var(--accent-cyan);
+  border-radius: 4px;
+  animation: waveBar 1.2s infinite ease-in-out;
+}
+
+.wave-bar:nth-child(2) { animation-delay: 0.15s; }
+.wave-bar:nth-child(3) { animation-delay: 0.3s; }
+.wave-bar:nth-child(4) { animation-delay: 0.45s; }
+
+.fade-in {
+  animation: fadeIn 0.35s ease-out forwards;
+}
