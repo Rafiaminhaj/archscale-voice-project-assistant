@@ -5,7 +5,9 @@
 **Email:** `rafiaminhaj423@gmail.com`  
 **Institution:** Cambridge Institute of Technology, Ranchi  
 **Track:** Full Stack Web Application Internship Hackathon  
-**Target Problem:** AS-03 (Voice Speech-to-Intent & Entity Extraction across 8 Architecture & Construction Stakeholders)
+**Target Problem:** AS-03 (Voice Speech-to-Intent & Entity Extraction across 8 Architecture & Construction Stakeholders)  
+**Live Deployed Prototype:** [https://rafiaminhaj.github.io/archscale-voice-project-assistant/](https://rafiaminhaj.github.io/archscale-voice-project-assistant/)  
+**GitHub Repository:** [https://github.com/Rafiaminhaj/archscale-voice-project-assistant](https://github.com/Rafiaminhaj/archscale-voice-project-assistant)
 
 ---
 
@@ -19,7 +21,27 @@ Communication is severely fragmented across 6 unstructured channels (WhatsApp me
 
 ---
 
-## 🛠️ 2. Core Features & Capabilities
+## 🛠️ 2. Workflow & Architecture Diagram
+
+```
+   [ 🎤 Natural Voice Input / Quick Prompts ]
+                       │
+                       ▼
+       [ Web Speech API Speech-to-Text ]
+                       │
+                       ▼
+    [ Gemini 3.7 Flash Intent & Entity Parser ]
+                       │
+     ┌─────────────────┴─────────────────┐
+     ▼                                   ▼
+[ 8 Stakeholder Roles ]       [ Text-to-Speech Output ]
+(Architect, Contractor,       (Hands-free Audio Readback
+ Supplier, Consultant...)      for Site Teams)
+```
+
+---
+
+## 🚀 3. Core Features & Capabilities
 
 1. **Speech-to-Text & Mic Console**: Real-time voice audio recording with interactive waveform visualizer.
 2. **Gemini AI Speech-to-Intent & Entity Extraction**: Automatically extracts the *Intent* (e.g., Material Spec Query), *Target Stakeholder Roles*, *Entity Name*, and *Executed Action*.
@@ -29,7 +51,7 @@ Communication is severely fragmented across 6 unstructured channels (WhatsApp me
 
 ---
 
-## 🏗️ 3. Architecture & Tech Stack
+## 🏗️ 4. Architecture & Tech Stack
 
 - **Frontend:** HTML5, Modern Vanilla CSS3 Design Tokens, Javascript (ES6+ Modules), Vite.
 - **Voice Recognition:** Web Speech API (`webkitSpeechRecognition` & `SpeechSynthesis`).
@@ -38,14 +60,15 @@ Communication is severely fragmented across 6 unstructured channels (WhatsApp me
 
 ---
 
-## 🚀 4. How AI Helped & Decisions Made
+## 🧠 5. How AI Helped & Decisions Made
 
 - **AI Assistance:** Used AI for rapid intent classification pipeline prototyping, voice waveform CSS animation design, and multi-channel message stream synthesis.
-- **Design Decision:** Prioritized 1-click prompt triggers alongside mic input to ensure instant execution even in noisy construction site environments.
+- **Design Decision:** Prioritized 1-click prompt triggers alongside mic input to ensure instant execution even in noisy construction site environments ("One brilliant working workflow > 50 unfinished screens").
 
 ---
 
-## 🔮 5. Future Evolution Roadmap
+## 🔮 6. Future Evolution Roadmap
 
 - **Phase 1 (Current):** Voice speech-to-intent parsing, entity extraction, and 8 stakeholder UI card synchronization.
 - **Phase 2 (Next):** Direct Webhook integration with WhatsApp Business API and automated CAD/REVIT file version stamping via cloud serverless functions.
+
