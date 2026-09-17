@@ -7,7 +7,8 @@
 **Track:** Full Stack Web Application Internship Hackathon  
 **Target Problem:** AS-03 (Voice Speech-to-Intent & Entity Extraction across 8 Architecture & Construction Stakeholders)  
 **Live Deployed Prototype:** [https://rafiaminhaj.github.io/archscale-voice-project-assistant/](https://rafiaminhaj.github.io/archscale-voice-project-assistant/)  
-**GitHub Repository:** [https://github.com/Rafiaminhaj/archscale-voice-project-assistant](https://github.com/Rafiaminhaj/archscale-voice-project-assistant)
+**GitHub Repository:** [https://github.com/Rafiaminhaj/archscale-voice-project-assistant](https://github.com/Rafiaminhaj/archscale-voice-project-assistant)  
+🎥 **Live Video Demonstration & Walkthrough:** [Watch Video Walkthrough (Google Drive)](https://drive.google.com/file/d/1I8HT0hnHkU3jeGkAkLI5BfdWAtIcSgzn/view?usp=sharing)
 
 ---
 
